@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Maps</title>
+	<link rel="stylesheet" type="text/css" href="prueba.css">
+    
+
+</head>
+<body>
+    
+    <h1><center>Consulta de las capitales de los paises Suramericanos</center></h1>
+<div>
+<select id="capitales" name="capitales" onchange='selector()' >
+
+        <option value="pa">Seleccione el pais</option>
+        <option value="Buenos Aires">Buenos Aires</option> 
+        <option value="Sucre">Sucre</option> 
+        <option value="Brasilia">Brasilia</option>
+        <option value="Santiago">Santiago</option> 
+        <option value="Bogota">Bogotá</option> 
+        <option value="Quito">Quito</option> 
+        <option value="Asuncion">Asunción</option>
+        <option value="Lima">Lima</option> 
+        <option value="Paramaribo">Paramaribo</option>
+        <option value="Montevideo">Montevideo</option> 
+
+     
+     </select>
+    </div>
+     
+     
+    <select id="pokemon" name="pokemon" onchange='pokeselector()' >
+
+        <option value="pa">Seleccione el pokemon</option>
+        <option value="1">bulbasaur</option> 
+        <option value="4">charmander</option> 
+        <option value="5">charmeleon</option>
+        <option value="6">charizard</option> 
+        <option value="7">squirtle</option> 
+        <option value="10">caterpie</option> 
+        <option value="17">pidgeotto</option>
+        <option value="19">rattata</option> 
+
+     
+     </select>
+    </div>
+
+	
+    <div id="contenedor"></div>
+
+    <div id="bander"> </div>
+
+
+<script src="app.js"></script>
+
+
+
+
+
+
+<div id="contenedor2">
+
+</div>
+<script src="app2.js"></script>
+
+
+
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBDaeWicvigtP9xPv919E-RNoxfvC-Hqik&callback=iniciarMap" ></script>
+
+
+<div id="prueba"></div>
+<div id="mapa"></div>
+
+<div id="title2"><h2>Seleccione a su pokemon</h2></div>
+
+<script src="app3.js"></script>
+<div id="poke"></div>
+<div id="move"></div>
+
+
+</body>
+</html>
